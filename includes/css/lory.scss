@@ -1,0 +1,32 @@
+// styles for lory js
+$arrow-size: 20px;
+
+.frame {
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.slides {
+  display: inline-block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  display: block;
+  margin-top: -$arrow-size;
+  position: absolute;
+  top: 50%;
+}
+
+.next {
+  right: 0;
+}
+
+.prev {
+  left: 0;
+}
+
+.next svg, .prev svg {
+  width: $arrow-size;
+}

@@ -1,0 +1,35 @@
+#footer {
+  background: #3c4345;
+  border: 1px solid #334043;
+  box-sizing: border-box;
+  color: #9b99a4;
+  width: 100%; }
+
+.footer-wrapper {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  padding: 6px 0; }
+
+#social-media-gallery {
+  font-size: 1.75em; }
+  #social-media-gallery ul {
+    margin: 6px 0;
+    text-align: center; }
+    #social-media-gallery ul a {
+      color: inherit; }
+    #social-media-gallery ul li {
+      display: inline-block;
+      margin: 0 6px;
+      transition: color 0.1s linear; }
+    #social-media-gallery ul li:hover {
+      color: #bebadf; }
+
+#copyright {
+  display: block;
+  text-align: center; }
+  #copyright span {
+    font-size: 1.35em;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=footer.css.map */
