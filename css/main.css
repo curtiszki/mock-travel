@@ -52,7 +52,7 @@ body.hide-scroll {
   width: 100%;
   z-index: 500; }
   #hdr a {
-    color: wheat;
+    color: #f5fffa;
     font-size: 1.25rem;
     padding: 15px 6px;
     position: relative;
@@ -69,25 +69,27 @@ body.hide-scroll {
     opacity: 0;
     position: absolute;
     transform: scaleX(0) perspective(1px) translateZ(0);
-    transition: opacity 0.1s ease-in, left 0.2s ease-in, transform 0.5s ease-out;
+    transition: opacity 0.1s ease, left 0.2s ease, transform 0.5s ease;
     width: 100%; }
   #hdr a:before {
-    background: teal;
+    background: #c2dc9c;
     transition-delay: 0.2s;
     z-index: 9000; }
   #hdr a:after {
-    background: red;
+    background: #33B27D;
     opacity: 1;
     z-index: 9001; }
   #hdr a:hover:before, #hdr a:active:before,
   #hdr a:hover:after, #hdr a:active:after {
     left: 0%;
     opacity: 1;
+    transition: opacity 0.1s ease-in, left 0.2s ease-in, transform 0.5s ease-out;
     transform: scaleX(1); }
   #hdr a:hover:before, #hdr a:active:before {
     transition-delay: 0s; }
   #hdr a:hover:after, #hdr a:active:after {
-    transition-delay: 0.12s; }
+    transition: opacity 0.1s ease-in, left 0.3 ease-in, transform 0.6s ease-out;
+    transition-delay: 0.24s; }
 
 #hdr-logo {
   left: 14px;
@@ -203,7 +205,7 @@ body.hide-scroll {
     #inline-hdr ul.hdr-options li {
       display: inline-block;
       line-height: 2.1em;
-      margin: 20px 6px 0;
+      margin: 20px 10px 0;
       overflow: hidden; }
 
 #overlay-hdr {
@@ -298,19 +300,17 @@ body.hide-scroll {
   margin-bottom: 160px;
   position: relative; }
   #landing #opacity-layer {
-    background: #000;
+    background: #46483f;
     height: 100%;
     left: 0;
-    opacity: 0.38;
+    opacity: 0.28;
     position: absolute;
     top: 0;
     width: 100%; }
   #landing #hro-txt {
-    left: 0;
+    left: 9%;
     position: absolute;
-    right: 0;
-    text-align: center;
-    top: 27%; }
+    top: 25%; }
   #landing .landing-video {
     height: 100%;
     width: 100%;

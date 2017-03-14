@@ -68,20 +68,18 @@ button {
   position: relative;
 
   #opacity-layer {
-    background: #000;
+    background: #46483f;
     height: 100%;
     left: 0;
-    opacity: 0.38;
+    opacity: 0.28;
     position: absolute;
     top: 0;
     width: 100%;
   }
   #hro-txt {
-    left: 0;
+    left: 9%;
     position: absolute;
-    right: 0;
-    text-align: center;
-    top: 27%;
+    top: 25%;
   }
 
   .landing-video {
