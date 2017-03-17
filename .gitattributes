@@ -1,0 +1,19 @@
+## .gitattributes
+
+## Ensure LF are normalized by github
+
+*.pdf diff=astextplain
+*.PDF diff=astextplain
+
+*.html text
+*.htm text
+*.js text
+*.scss text
+*.css text
+
+## Ensure that images are not interpreted as text
+
+*.jpg binary
+*.png binary
+*.ico binary
+*.gif binary
